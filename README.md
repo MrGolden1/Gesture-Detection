@@ -28,9 +28,9 @@ The data includes 30 consecutive samples of accelerations every 15 miliseconds. 
 
 So each training data is 30*3=90 dimensional vector that is feed to the SVM classifier.
 
-![res1](train_model/result/res1.png)
-![res2](train_model/result/res2.png)
-![res3](train_model/result/res3.png)
+![res1](train_model/result/res1.png =300x300)
+![res2](train_model/result/res2.png =300x300)
+![res3](train_model/result/res3.png =300x300)
 
 ## Demo
 
