@@ -19,6 +19,9 @@ Software:
 The game controller is a simple gesture-based game controller. Currently up, left, right, punch are supported.
 Limited resources on hardware and real-time performance were considered during the development. Classification is done using SVM classifier.
 Training data is manually generated and collected for each gesture. You can find them and script to generate them in the `train_model` folder.
+## Demo
+
+![demo](train_model/result/demo.gif)
 
 ## Data and Model
 The data includes 30 consecutive samples of accelerations every 15 miliseconds. each sample is a 3-dimensional vector.
@@ -34,7 +37,3 @@ So each training data is 30*3=90 dimensional vector that is feed to the SVM clas
 <img src="train_model/result/res2.png" width="50%">
 <!-- ![res3](train_model/result/res3.png) -->
 <img src="train_model/result/res3.png" width="50%">
-
-## Demo
-
-![demo](train_model/result/demo.gif)
